@@ -1,0 +1,160 @@
+
+
+.wrapper{
+    width: 1170px;
+    margin: auto;
+}
+
+header{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('src/assets/images/todoimage.jpg');
+    height: 100vh;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+.nav-bar{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+.nav-bar li{
+    display: inline-block;
+}
+
+.nav-bar li a{
+    color: cornsilk;
+    text-decoration: none;
+    padding:  5px 20px;
+    font-family: poppins;
+    font-size: 16px;
+}
+
+.nav-bar li a:hover{
+    background: rgb(165, 128, 47);
+    color: #333;
+}
+
+.logo img{
+    width: 100px;
+    float: left;
+    height: auto;
+}
+.welcome-text{
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    margin: 20% 30%;
+    text-align: center;
+}
+
+.welcome-text h1{
+    text-align: center;
+    color:cornsilk;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+.welcome-text a{
+    padding: 10px 25px;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.button{
+    background: grey;
+    color: cornsilk;
+    box-align: left;
+    padding:  5px 20px;
+    font-size: large;
+}
+
+.card {
+    margin: 120px auto;
+    max-width: 400px;
+    width: 100%;
+    background:cornsilk;
+    border-radius: 12px;
+    padding: 25px;
+
+}
+h1{
+    text-align: center;
+}
+.card .InputField{
+    display: flex;
+    height: 45px;
+    width: 100%;
+}
+.InputField input{
+    width: 85%;
+    height: 100%;
+    border: 1px solid;
+    font-size: 17px;
+    border-radius: 3px;
+    padding-left: 15px;
+
+}
+.InputField button{
+    width: 60px;
+    outline: none;
+    height: 100%;
+    border: none;
+    background: plum;
+    color: dimgray;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-left: 5px;
+    font-size: large;
+}
+.card .todoList{
+    max-height: 250px;
+    overflow-y: auto;
+
+}
+.todoList li{
+    list-style: none;
+    height: 45px;
+    line-height: 45px;
+    position: relative;
+    background: bisque;
+    border-radius: 3px;
+    margin-bottom: 8px;
+    padding: 0 15px;
+    overflow: hidden;
+   cursor: default;
+
+}
+.todoList li span .delete{
+    position: absolute;
+    right: 0px;
+    color: crimson;
+    border-radius: 0 3px 3px 0;
+    text-align: center;
+    width: 55px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+
+.footer {
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer button{
+    border: none;
+    outline: none;
+    color: white;
+    background: plum;
+    text-align: center;
+    width: 45px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 14px;
+    padding: 6px 10px;
+
+}
+
