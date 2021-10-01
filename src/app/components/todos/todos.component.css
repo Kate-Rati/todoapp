@@ -1,0 +1,106 @@
+
+.card {
+  margin: 120px auto;
+  max-width: 400px;
+  width: 100%;
+  background:cornsilk;
+  border-radius: 12px;
+  padding: 25px;
+
+}
+h1{
+  text-align: center;
+}
+.card .InputField{
+  display: flex;
+  height: 45px;
+  width: 100%;
+}
+.InputField input{
+  width: 85%;
+  height: 100%;
+  border: 1px solid;
+  font-size: 17px;
+  border-radius: 3px;
+  padding-left: 15px;
+
+}
+.InputField button{
+  width: 60px;
+  outline: none;
+  height: 100%;
+  border: none;
+  background: plum;
+  color: dimgray;
+  cursor: pointer;
+  border-radius: 3px;
+  margin-left: 5px;
+  font-size: large;
+}
+.card .todoList{
+  max-height: 250px;
+  overflow-y: auto;
+
+}
+
+
+
+.card h1 .todos .todo .content{
+  flex: 1 1 100%;
+
+}
+
+.todo.done .content{
+  text-decoration: line-through;
+
+}
+
+.InputField .todo-input{
+
+
+}
+.todos .todo .content span .delete{
+  position: absolute;
+  right: 0px;
+  color: crimson;
+  border-radius: 0 3px 3px 0;
+  text-align: center;
+  width: 55px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.todos .todo .content {
+  list-style: none;
+  height: 45px;
+  line-height: 45px;
+  position: relative;
+  background: bisque;
+  border-radius: 3px;
+  margin-bottom: 8px;
+  padding: 0 15px;
+
+}
+
+
+.InputField form .todo-input{
+  width: 85%;
+  height: 100%;
+  border: 1px solid;
+  font-size: 17px;
+  border-radius: 3px;
+  padding-left: 15px;
+
+}
+.InputField form .todo-submit{
+  width: 50px;
+  outline: none;
+  height: 20px;
+  border: none;
+  background: plum;
+  color: dimgray;
+  cursor: pointer;
+  border-radius: 3px;
+  margin-inline: 150px;
+
+}
