@@ -9,7 +9,7 @@ import { Todo } from 'src/app/models/Todo';
 })
 export class TodosComponent implements OnInit {
 
-  todos: Todo[];
+  todos!: Todo[];
   inputTodo: string=" ";
 
   constructor() { }

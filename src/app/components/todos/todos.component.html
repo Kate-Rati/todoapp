@@ -1,12 +1,12 @@
 <div class="card">
   <h1>My List</h1>
   <br />
-  <div class="InputField" ><form (submit)="addTodo()">
-    <input type="text" placeholder="New Task"  class="todo-input" [(ngModel)]="inputTodo"/>
+  <form (submit)="addTodo()">
+    <input name="task" type="text" placeholder="New Task"  class="todo-input" [(ngModel)]="inputTodo"/>
 
-    <input type="submit" value="Add"class="todo-submit">
+    <input name="add" type="submit" value="Add"class="todo-submit">
 
-  </form></div>
+  </form>
 <br/>
 
   <div class="todos">

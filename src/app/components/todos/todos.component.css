@@ -16,7 +16,7 @@ h1{
   height: 45px;
   width: 100%;
 }
-.InputField input{
+ .todo-submit input{
   width: 85%;
   height: 100%;
   border: 1px solid;
@@ -25,7 +25,7 @@ h1{
   padding-left: 15px;
 
 }
-.InputField button{
+ button{
   width: 60px;
   outline: none;
   height: 100%;
